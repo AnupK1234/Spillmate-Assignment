@@ -1,0 +1,108 @@
+* {
+    background-color: yellow;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    margin-right: 10px;
+    list-style: none;
+}
+
+.login {
+    background-color: rgb(227, 255, 14);
+    border: 1px solid black;
+    padding: 10px;
+    margin-right: 10px;
+    width: 80px;
+}
+
+.signup {
+    background-color: rgb(2, 95, 255);
+    padding: 10px;
+    color: white;
+    border: none;
+    font-weight: 500;
+}
+
+.list1 {
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+}
+
+li {
+    margin-right: 50px;
+}
+
+.search {
+    margin-right: 20px;
+    padding: 8px;
+    border: none;
+    border-bottom: 1px solid black;  
+}
+
+.logo {
+    width: 100px;
+    height: 70px;
+    margin-right: 30px;
+}
+
+.navbar {
+    margin-top: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.container-button {
+    background-color: rgb(0, 98, 255);
+    margin-right: 10px;
+    padding: 15px;
+    color: white;
+    border: none;
+    font-weight: 700;
+}
+
+.container-img {
+    width: 400px;
+    height: 400px;
+}
+
+.container-div1 {
+    width: 400px;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+.link1 {
+    color: blue;
+    font-weight: 500;
+}
+
+.rightlist {
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.searchIcon {
+    width: 25px;
+    height: 25px;
+    border: none;
+    margin-bottom: 0;
+}
+
+.searchbar {
+    display: inline;
+    outline: none;
+}
+
+input:focus {
+    outline: none;
+}
